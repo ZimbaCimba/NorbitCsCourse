@@ -21,9 +21,9 @@ namespace ClassLibrary1
 
         public static void WriteSqr(this int N)
         {
-            for (var i = 0; i < N; i++)
+            for (int i = 0; i < N; i++)
             {
-                for (var j = 0; j < N; j++)
+                for (int j = 0; j < N; j++)
                 {
                     if ((i == N/2)&& (j == N / 2))
                     {
